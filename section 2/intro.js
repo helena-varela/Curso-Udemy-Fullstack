@@ -21,3 +21,19 @@ const resultado = primeirnumero + segundonumero;
 console.log(resultado);
 
 console.log(typeof(resultado)); //tipo da variável
+
+const aprovado = true;
+
+console.log(typeof(aprovado));
+
+let a = [1, 2];
+let b = a;
+
+b.push(3);
+console.log(a, b);
+
+let c = 1;
+let d = c;
+
+c = 3;
+console.log(c, d);
